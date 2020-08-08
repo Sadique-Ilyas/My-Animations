@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activity5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5sp"
+            android:layout_marginRight="5sp"
+            android:text="@string/hello_world"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Button51"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/textView51"
+            android:layout_toRightOf="@id/textView51"
+            android:text="TakingOff" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5sp"
+            android:layout_marginRight="5sp"
+            android:text="@string/hello_world"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Button52"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/textView52"
+            android:layout_toRightOf="@id/textView52"
+            android:text="Wave" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5sp"
+            android:layout_marginRight="5sp"
+            android:text="@string/hello_world"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Button53"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/textView53"
+            android:layout_toRightOf="@id/textView53"
+            android:text="Wobble" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5sp"
+            android:layout_marginRight="5sp"
+            android:text="@string/hello_world"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Button54"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/textView54"
+            android:layout_toRightOf="@id/textView54"
+            android:text="ZoomIn" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5sp"
+            android:layout_marginRight="5sp"
+            android:text="@string/hello_world"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Button55"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/textView55"
+            android:layout_toRightOf="@id/textView55"
+            android:text="ZoomInDown" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5sp"
+            android:layout_marginRight="5sp"
+            android:text="@string/hello_world"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Button56"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/textView56"
+            android:layout_toRightOf="@id/textView56"
+            android:text="ZoomInLeft" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5sp"
+            android:layout_marginRight="5sp"
+            android:text="@string/hello_world"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Button57"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/textView57"
+            android:layout_toRightOf="@id/textView57"
+            android:text="ZoomInRight" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5sp"
+            android:layout_marginRight="5sp"
+            android:text="@string/hello_world"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Button58"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/textView58"
+            android:layout_toRightOf="@id/textView58"
+            android:text="ZoomInUp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5sp"
+            android:layout_marginRight="5sp"
+            android:text="@string/hello_world"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Button59"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/textView59"
+            android:layout_toRightOf="@id/textView59"
+            android:text="ZoomOut" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5sp"
+            android:layout_marginRight="5sp"
+            android:text="@string/hello_world"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Button60"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/textView60"
+            android:layout_toRightOf="@id/textView60"
+            android:text="ZoomOutDown" />
+
+    </RelativeLayout>
+
+</LinearLayout>
